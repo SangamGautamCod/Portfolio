@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-content h1 {
+    margin: 0.5rem 0;
+    font-size: 2.5rem;
+}
+
+.header-content p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.about-section {
+    background-color: white;
+    padding: 2rem;
+}
+
+.projects-section {
+    background-color: #e9e9e9;
+    padding: 2rem;
+    background-image: url(lets.jpg);
+   
+}
+
+.project-card {
+    background: white;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(download.jpg);
+}
+
+.contact-section {
+    background-color: white;
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5rem 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.5rem 2rem;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.projects-section h2{
+    text-decoration: chartreuse;
+}
